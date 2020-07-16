@@ -1,2 +1,3 @@
-# scrapper
-Image for building scrapping workers. 🕸
+# Scrapper Image
+
+Docker image for building scrapping workers. 🕸
