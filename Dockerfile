@@ -22,9 +22,9 @@ RUN pip install --upgrade --no-cache-dir pip setuptools
 
 RUN set -ex; \
     pip install --no-cache-dir \
-        parse
-        pyOpenSSL
-        scrapy
+        parse \
+        pyOpenSSL \
+        scrapy \
         scrapyd
 
 COPY provisioning/jobcrawler/ /opt/jobcrawler
